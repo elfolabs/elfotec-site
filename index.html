@@ -54,7 +54,7 @@
     </header>
     <section id="marcas" class="py-5">
         <div class="container text-center py-5">
-            <p class="mb-4" style="font-size: 1.6rem;">Integrações, hospedagem e&nbsp;<span class="text-success"><strong>serviços em nuvem</strong></span>&nbsp;.</p><a href="#"> <img class="m-3" src="assets/img/brands/aws.png" width="68" height="37"></a><a href="#"> <img class="m-3" src="assets/img/brands/google.png"></a><a href="#"> <img class="m-3" src="assets/img/brands/microsoft.png"></a><a href="#"> <img class="m-3" src="assets/img/brands/apple.png"></a><a href="#"> <img class="m-3" src="assets/img/brands/facebook.png"></a><a href="#"> </a><img src="assets/img/brands/oracle.png" width="112" height="21">
+            <p class="mb-4" style="font-size: 1.6rem;">Soluções, integrações e&nbsp;<span class="text-success"><strong>serviços em nuvem</strong></span>&nbsp;.</p><a href="#"> <img class="m-3" src="assets/img/brands/aws.png" width="68" height="37"></a><a href="#"> <img class="m-3" src="assets/img/brands/google.png"></a><a href="#"> <img class="m-3" src="assets/img/brands/microsoft.png"></a><a href="#"> <img class="m-3" src="assets/img/brands/apple.png"></a><a href="#"> <img class="m-3" src="assets/img/brands/facebook.png"></a><a href="#"> </a><img src="assets/img/brands/oracle.png" width="112" height="21">
         </div>
     </section>
     <section id="servicos">
@@ -119,8 +119,8 @@
             </div>
         </div>
     </section>
-    <section id="contato" class="py-5">
-        <div class="container">
+    <section class="position-relative py-4 py-xl-5">
+        <div class="container position-relative">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <p class="fw-bold text-success mb-2">Fale conosco</p>
@@ -128,196 +128,46 @@
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-md-6 col-xl-4">
-                    <div class="intro">
-                        <h2>Ligamos pra você</h2>
-                        <p>Entre em contato e conheça mais detalhes do produto.</p><div>
-<div id="tripetto"></div>
-<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
-<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-classic"></script>
-<script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
-<script>
-var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiM2JtdFBHUllkMlZDU0Jwc1VoeGJkVnNOQXlsV3gxQjZKZ1ZDTkFyTHZzZz0iLCJkZWZpbml0aW9uIjoibHduMERqQXpDeFoySjRONnJCdHoxbFR6b0tEUHNMbDJETHA3L0MyaFlaaz0iLCJ0eXBlIjoiY29sbGVjdCJ9.7sIXL2VqmeXEhxc7BauRiL6FIIIb9g4bzK-Q_aQ9A1s" });
-
-TripettoClassic.run({
-    element: document.getElementById("tripetto"),
-    definition: tripetto.definition,
-    styles: tripetto.styles,
-    l10n: tripetto.l10n,
-    locale: tripetto.locale,
-    translations: tripetto.translations,
-    attachments: tripetto.attachments,
-    onSubmit: tripetto.onSubmit
-});
-</script>
-</div>
-
-<!-- https://github.com/orestbida/cookieconsent -->
-
-<script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.5/dist/cookieconsent.js"></script>
-
-    <!-- Inline script -->
-    <script>
-        // document.body.classList.toggle('c_darkmode');
-
-        window.addEventListener('load', function(){
-
-            // obtain plugin
-            var cc = initCookieConsent();
-
-            // run plugin with your configuration
-            cc.run({
-                current_lang: 'ptBR',
-                autoclear_cookies: true,                   // default: false
-                page_scripts: true,                        // default: false
-
-                mode: 'opt-out',                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
-                // delay: 0,                               // default: 0
-                // auto_language: '',                      // default: null; could also be 'browser' or 'document'
-                // autorun: true,                          // default: true
-                force_consent: false,                   // default: false
-                hide_from_bots: true,                  // default: false
-                // remove_cookie_tables: false             // default: false
-                // cookie_name: 'cc_cookie',               // default: 'cc_cookie'
-                // cookie_expiration: 182,                 // default: 182 (days)
-                // cookie_necessary_only_expiration: 182   // default: disabled
-                // cookie_domain: location.hostname,       // default: current domain
-                // cookie_path: '/',                       // default: root
-                // cookie_same_site: 'Lax',                // default: 'Lax'
-                // use_rfc_cookie: false,                  // default: false
-                // revision: 0,                            // default: 0
-                gui_options: {
-                    settings_modal: {
-                        layout: 'bar',                 // box/bar
-                        // position: 'left',           // left/right
-                        transition: 'slide'            // zoom/slide
-                    }
-                },
-
-                onFirstAction: function(user_preferences, cookie){
-                    // callback triggered only once on the first accept/reject action
-                },
-
-                onAccept: function (cookie) {
-                    // callback triggered on the first accept/reject action, and after each page load
-                },
-
-                onChange: function (cookie, changed_categories) {
-                    // callback triggered when user changes preferences after consent has already been given
-                },
-
-                languages: {
-                    'en': {
-                        consent_modal: {
-                            title: 'Nós usamos cookies!',
-                            description: 'Olá, este site usa cookies essenciais para garantir seu bom funcionamento e cookies de rastreamento para entender como você interage com ele. Este último será definido somente após o consentimento. <button type="button" data-cc="c-settings" class="cc-link">Deixe-me escolher</button>. Conheça nossos <a class="cc-link" href="termos-uso.html">Termos de Uso</a> e a <a class="cc-link" href="termos-privacidade.html">Política de Privacidade</a>.',
-                            primary_btn: {
-                                text: 'Aceitar tudo',
-                                role: 'accept_all'              // 'accept_selected' or 'accept_all'
-                            },
-                            secondary_btn: {
-                                text: 'Rejeitar tudo',
-                                role: 'accept_necessary'        // 'settings' or 'accept_necessary'
-                            }
-                        },
-                        settings_modal: {
-                            title: 'Preferências de Cookie',
-                            save_settings_btn: 'Salvar configurações',
-                            accept_all_btn: 'Aceitar tudo',
-                            reject_all_btn: 'Rejeitar tudo',
-                            close_btn_label: 'Fechar',
-                            cookie_table_headers: [
-                                {col1: 'Name'},
-                                {col2: 'Domain'},
-                                {col3: 'Expiration'},
-                                {col4: 'Description'}
-                            ],
-                            blocks: [
-                                {
-                                    title: 'Uso de cookies 📢',
-                                    description: 'Usamos cookies para garantir as funcionalidades básicas do site e melhorar sua experiência online. Você pode escolher cada categoria para ativar/desativar sempre que quiser. Para obter mais detalhes sobre cookies e outros dados confidenciais, leia a íntegra da <a href="#" class="cc-link">Política de Privacidade</a>.'
-                                }, {
-                                    title: 'Apenas os cookies necessários',
-                                    description: 'Esses cookies são essenciais para o bom funcionamento do site. Sem esses cookies, o site não funcionaria corretamente',
-                                    toggle: {
-                                        value: 'necessary',
-                                        enabled: true,
-                                        readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
-                                    }
-                                }, {
-                                    title: 'Performance e Analytics',
-                                    description: 'Esses cookies permitem que o site se lembre das escolhas que você fez no passado',
-                                    toggle: {
-                                        value: 'analytics',     // your cookie category
-                                        enabled: true,
-                                        readonly: false
-                                    },
-                                    cookie_table: [             // list of all expected cookies
-                                        {
-                                            col1: '^_ga',       // match all cookies starting with "_ga"
-                                            col2: 'google.com',
-                                            col3: '2 years',
-                                            col4: 'description ...',
-                                            is_regex: true
-                                        },
-                                        {
-                                            col1: '_gid',
-                                            col2: 'google.com',
-                                            col3: '1 day',
-                                            col4: 'description ...',
-                                        }
-                                    ]
-                                }, {
-                                    title: 'Cookies de publicidade e segmentação',
-                                    description: 'Esses cookies coletam informações sobre como você usa o site, quais páginas você visitou e quais links você clicou. Todos os dados são anonimizados e não podem ser usados para identificá-lo',
-                                    toggle: {
-                                        value: 'targeting',
-                                        enabled: true,
-                                        readonly: false
-                                    }
-                                }, {
-                                    title: 'Mais informações',
-                                    description: 'Para quaisquer dúvidas em relação à nossa política de cookies e suas escolhas, por favor <a class="cc-link" href="index.html#contato">fale conosco</a>.',
-                                }
-                            ]
-                        }
-                    }
-                }
-            });
-        });
-    </script>
-
-                    </div>
-                </div>
-                <div class="col-md-4 col-xl-4 d-flex justify-content-center justify-content-xl-start">
-                    <div class="d-flex flex-wrap flex-md-column justify-content-md-start align-items-md-start h-100">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="d-flex flex-column justify-content-center align-items-start h-100">
                         <div class="d-flex align-items-center p-3">
-                            <div class="bs-icon-md bs-icon-circle bs-icon-primary shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
                                     <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
                                 </svg></div>
                             <div class="px-2">
-                                <h6 class="fw-bold mb-0">Telefone</h6>
-                                <p class="text-muted mb-0">+55 61 99817-5742</p>
+                                <h6 class="mb-0">Telefone</h6>
+                                <p class="mb-0"><span style="color: rgb(176, 189, 211);">+55 61 99817-5742</span></p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center p-3">
-                            <div class="bs-icon-md bs-icon-circle bs-icon-primary shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
                                     <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                                 </svg></div>
                             <div class="px-2">
-                                <h6 class="fw-bold mb-0">Email</h6>
-                                <p class="text-muted mb-0"><a href="mailto:desenv@elfotec.com.br"><span style="color: rgb(176, 189, 211);">desenv@elfotec.com.br</span></a><br></p>
+                                <h6 class="mb-0">Email</h6>
+                                <p class="mb-0"><a href="mailto:contato@elfotec.com.br"><span style="color: rgb(176, 189, 211);">contato@elfotec.com.br</span></a></p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center p-3">
-                            <div class="bs-icon-md bs-icon-circle bs-icon-primary shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pin">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pin">
                                     <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"></path>
                                 </svg></div>
                             <div class="px-2">
-                                <h6 class="fw-bold mb-0">Onde estamos</h6>
-                                <p class="text-muted mb-0">Asa Sul, Brasília, DF<br>Brasil</p>
+                                <h6 class="mb-0">Location</h6>
+                                <p class="mb-0"><span style="color: rgb(176, 189, 211);">Asa Sul, Brasília, DF</span><br><span style="color: rgb(176, 189, 211);">Brasil</span></p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <div>
+                        <form class="p-3 p-xl-4" data-bss-recipient="46ef85fe512b421b335c4dcc0c540439" data-bss-subject="Elfotec - Fale Conosco" data-bss-loading-message="Enviando..." data-bss-success-title="Sucesso" data-bss-success-message="Sua mensagem foi enviada" data-bss-error-message="Algo aconteceu de errado..." data-bss-close="Fechar" data-bss-empty-form-message="Por favor, preencha todos os campos">
+                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Nome" style="color: rgb(0,0,0);"></div>
+                            <div class="mb-3"><input class="form-control" type="tel" name="phone" placeholder="Telefone/Whatsapp" style="color: rgb(0,0,0);"></div>
+                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email" style="color: rgb(0,0,0);"></div>
+                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Mensagem" style="color: rgb(0,0,0);"></textarea></div>
+                            <div><button class="btn btn-primary d-block w-100" type="submit">Enviar</button></div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -353,9 +203,143 @@ TripettoClassic.run({
                 <p class="mb-0">Copyright © 2021-2022 Elfotec Tecnologia | Todos os direitos reservados</p>
             </div>
         </div>
-    </footer>
+    </footer><!-- https://github.com/orestbida/cookieconsent -->
+
+<script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.5/dist/cookieconsent.js"></script>
+
+<!-- Inline script -->
+<script>
+    // document.body.classList.toggle('c_darkmode');
+
+    window.addEventListener('load', function(){
+
+        // obtain plugin
+        var cc = initCookieConsent();
+
+        // run plugin with your configuration
+        cc.run({
+            current_lang: 'ptBR',
+            autoclear_cookies: true,                   // default: false
+            page_scripts: true,                        // default: false
+
+            mode: 'opt-out',                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
+            // delay: 0,                               // default: 0
+            // auto_language: '',                      // default: null; could also be 'browser' or 'document'
+            // autorun: true,                          // default: true
+            force_consent: false,                   // default: false
+            hide_from_bots: true,                  // default: false
+            // remove_cookie_tables: false             // default: false
+            // cookie_name: 'cc_cookie',               // default: 'cc_cookie'
+            // cookie_expiration: 182,                 // default: 182 (days)
+            // cookie_necessary_only_expiration: 182   // default: disabled
+            // cookie_domain: location.hostname,       // default: current domain
+            // cookie_path: '/',                       // default: root
+            // cookie_same_site: 'Lax',                // default: 'Lax'
+            // use_rfc_cookie: false,                  // default: false
+            // revision: 0,                            // default: 0
+            gui_options: {
+                settings_modal: {
+                    layout: 'bar',                 // box/bar
+                    // position: 'left',           // left/right
+                    transition: 'slide'            // zoom/slide
+                }
+            },
+
+            onFirstAction: function(user_preferences, cookie){
+                // callback triggered only once on the first accept/reject action
+            },
+
+            onAccept: function (cookie) {
+                // callback triggered on the first accept/reject action, and after each page load
+            },
+
+            onChange: function (cookie, changed_categories) {
+                // callback triggered when user changes preferences after consent has already been given
+            },
+
+            languages: {
+                'en': {
+                    consent_modal: {
+                        title: 'Nós usamos cookies!',
+                        description: 'Olá, este site usa cookies essenciais para garantir seu bom funcionamento e cookies de rastreamento para entender como você interage com ele. Este último será definido somente após o consentimento. <button type="button" data-cc="c-settings" class="cc-link">Deixe-me escolher</button>. Conheça nossos <a class="cc-link" href="termos-uso.html">Termos de Uso</a> e a <a class="cc-link" href="termos-privacidade.html">Política de Privacidade</a>.',
+                        primary_btn: {
+                            text: 'Aceitar tudo',
+                            role: 'accept_all'              // 'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Rejeitar tudo',
+                            role: 'accept_necessary'        // 'settings' or 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Preferências de Cookie',
+                        save_settings_btn: 'Salvar configurações',
+                        accept_all_btn: 'Aceitar tudo',
+                        reject_all_btn: 'Rejeitar tudo',
+                        close_btn_label: 'Fechar',
+                        cookie_table_headers: [
+                            {col1: 'Name'},
+                            {col2: 'Domain'},
+                            {col3: 'Expiration'},
+                            {col4: 'Description'}
+                        ],
+                        blocks: [
+                            {
+                                title: 'Uso de cookies 📢',
+                                description: 'Usamos cookies para garantir as funcionalidades básicas do site e melhorar sua experiência online. Você pode escolher cada categoria para ativar/desativar sempre que quiser. Para obter mais detalhes sobre cookies e outros dados confidenciais, leia a íntegra da <a href="#" class="cc-link">Política de Privacidade</a>.'
+                            }, {
+                                title: 'Apenas os cookies necessários',
+                                description: 'Esses cookies são essenciais para o bom funcionamento do site. Sem esses cookies, o site não funcionaria corretamente',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
+                                }
+                            }, {
+                                title: 'Performance e Analytics',
+                                description: 'Esses cookies permitem que o site se lembre das escolhas que você fez no passado',
+                                toggle: {
+                                    value: 'analytics',     // your cookie category
+                                    enabled: true,
+                                    readonly: false
+                                },
+                                cookie_table: [             // list of all expected cookies
+                                    {
+                                        col1: '^_ga',       // match all cookies starting with "_ga"
+                                        col2: 'google.com',
+                                        col3: '2 years',
+                                        col4: 'description ...',
+                                        is_regex: true
+                                    },
+                                    {
+                                        col1: '_gid',
+                                        col2: 'google.com',
+                                        col3: '1 day',
+                                        col4: 'description ...',
+                                    }
+                                ]
+                            }, {
+                                title: 'Cookies de publicidade e segmentação',
+                                description: 'Esses cookies coletam informações sobre como você usa o site, quais páginas você visitou e quais links você clicou. Todos os dados são anonimizados e não podem ser usados para identificá-lo',
+                                toggle: {
+                                    value: 'targeting',
+                                    enabled: true,
+                                    readonly: false
+                                }
+                            }, {
+                                title: 'Mais informações',
+                                description: 'Para quaisquer dúvidas em relação à nossa política de cookies e suas escolhas, por favor <a class="cc-link" href="index.html#contato">fale conosco</a>.',
+                            }
+                        ]
+                    }
+                }
+            }
+        });
+    });
+</script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
 
